@@ -13,10 +13,12 @@
         "@waline/client": "^3.5.7",
         "astro": "^5.8.1",
         "astro-pure": "1.2.7",
+        "install": "^0.13.0",
         "katex": "^0.16.22",
         "rehype-katex": "^7.0.1",
         "remark-math": "^6.0.0",
         "sharp": "^0.34.2",
+        "transliteration": "^2.3.5",
         "typescript": "^5.8.3",
       },
       "devDependencies": {
@@ -868,6 +870,8 @@
 
     "inline-style-parser": ["inline-style-parser@0.2.4", "https://registry.npmmirror.com/inline-style-parser/-/inline-style-parser-0.2.4.tgz", {}, "sha512-0aO8FkhNZlj/ZIbNi7Lxxr12obT7cL1moPfE4tg1LkX7LlLfC6DeX4l2ZEud1ukP9jNQyNnfzQVqwbwmAATY4Q=="],
 
+    "install": ["install@0.13.0", "", {}, "sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA=="],
+
     "iron-webcrypto": ["iron-webcrypto@1.2.1", "https://registry.npmmirror.com/iron-webcrypto/-/iron-webcrypto-1.2.1.tgz", {}, "sha512-feOM6FaSr6rEABp/eDfVseKyTMDt+KGpeB35SkVn9Tyn0CqvVsY3EwI0v5i8nMHyJnzCIQf7nsy3p41TPkJZhg=="],
 
     "is-absolute-url": ["is-absolute-url@4.0.1", "https://registry.npmmirror.com/is-absolute-url/-/is-absolute-url-4.0.1.tgz", {}, "sha512-/51/TKE88Lmm7Gc4/8btclNXWS+g50wXhYJq8HWIBAGUBnoAdRu1aXeh364t/O7wXDAcTJDP8PNuNKWUDWie+A=="],
@@ -1373,6 +1377,8 @@
     "totalist": ["totalist@3.0.1", "https://registry.npmmirror.com/totalist/-/totalist-3.0.1.tgz", {}, "sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ=="],
 
     "tr46": ["tr46@0.0.3", "https://registry.npmmirror.com/tr46/-/tr46-0.0.3.tgz", {}, "sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw=="],
+
+    "transliteration": ["transliteration@2.3.5", "", { "dependencies": { "yargs": "^17.5.1" }, "bin": { "transliterate": "dist/bin/transliterate", "slugify": "dist/bin/slugify" } }, "sha512-HAGI4Lq4Q9dZ3Utu2phaWgtm3vB6PkLUFqWAScg/UW+1eZ/Tg6Exo4oC0/3VUol/w4BlefLhUUSVBr/9/ZGQOw=="],
 
     "trim-lines": ["trim-lines@3.0.1", "https://registry.npmmirror.com/trim-lines/-/trim-lines-3.0.1.tgz", {}, "sha512-kRj8B+YHZCc9kQYdWfJB2/oUl9rA99qbowYYBtr4ui4mZyAQ2JpvVBd/6U2YloATfqBhBTSMhTpgBHtU0Mf3Rg=="],
 
