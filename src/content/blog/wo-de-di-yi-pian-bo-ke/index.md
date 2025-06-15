@@ -1,6 +1,6 @@
 ---
 title: 我的第一篇博客
-publishDate: 2024-10-10 10:16:37
+publishDate: 2024-10-10
 description: 建站的第一篇博客
 language: '中文'
 ---
