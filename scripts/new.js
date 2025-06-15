@@ -1,4 +1,4 @@
-// scripts/new-post.js
+
 
 import fs from 'fs';
 import path from 'path';
@@ -37,14 +37,12 @@ fs.mkdirSync(postPath, { recursive: true });
 const today = new Date().toISOString().split('T')[0];
 const frontmatter = `---
 title: "${title}"
-pubDate: ${today}
-description: "在这里写下你的描述..."
-tags: []
+description: 'Write your description here.'
+publishDate: ${today}
+tags: ['tag1', 'tag2']
 ---
 
-## ${title}
-
-在这里开始你的正文...
+Write your content here.
 `;
 
 const filePath = path.join(postPath, 'index.md');
